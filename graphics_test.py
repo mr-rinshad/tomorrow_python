@@ -2,10 +2,7 @@
 from graphics.graphics_3d.cuboid import cuboid_area, cuboid_peri
 from graphics.graphics_3d.sphere import sphere_area, sphere_peri
 from graphics.rectangle import area, peri
-from graphics.circle import area as circle_area, peri as circle_perimeter
-
-# import * for cuboid and sphere (your new area, peri functions)
-from graphics.graphics_3d import *
+from graphics.circle import circle_area, circle_peri
 
 # ----- RECTANGLE -----
 print("\n--- Rectangle ---")
@@ -19,7 +16,7 @@ print("Rectangle perimeter =", peri(l, b))
 print("\n--- Circle ---")
 r = float(input("Enter circle radius: "))
 print("Circle area =", circle_area(r))
-print("Circle perimeter =", circle_perimeter(r))
+print("Circle perimeter =", circle_peri(r))
 
 
 # ----- CUBOID -----
